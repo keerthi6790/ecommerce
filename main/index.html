@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+
+  <link rel="icon" href="./pics/images/logo.png">
+  <title>Fox Store</title>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+  <div class="animate-bottom" style="display: none;" id="myDiv">
+    <!-- ---------------------Navbar-------------------------- -->
+    <div class="container container-head ">
+      <div class="column">
+        <div class="rows-2">
+          <nav class="logo">
+            <div>
+              <img src="./pics/images/logo-white.png" alt="logo" width="100px" height="30px" />
+            </div>
+        </div>
+        <div class="rows-2">
+          <div class="links">
+            <ul class="navlink">
+              <li><a href="./index.html">
+                  <p>Home</p>
+                </a></li>
+              <li><a href="./product.html">Product</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./logincredientals/signup.html"><img src="./pics/images/user.png" width="30px" height="30px"
+                    alt=""></a></li>
+              <li><a href=""><img src="./pics/images/cart.png" alt="cart" class="cart-image" width="30px"
+                    height="30px"></a></li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <!-- -----------------------------Header----------------------------- -->
+      </div>
+      <div class="column">
+        <div class="rows-2 head-text">
+          <h3>Easy to Buy!</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsum veritatis autem vel minus? Aliquam
+            quia architecto nam delectus, provident repellendus similique. Vel sint nam, suscipit quam mollitia rem
+            asperiores.</p>
+          <button class="products-link" onclick="location.href='http://127.0.0.1:5501/main/product.html'">Go to Prodcuts
+            &#8594;</button>
+        </div>
+        <div class="rows-2">
+          <img src="./pics/images/image1.png" alt="" width="500px" height="500px">
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------features-product--------------------- -->
+    <h3 class="product">
+      Feature Product
+      <hr id="line">
+    </h3>
+    <div class="features">
+      <div class="column">
+        <div class="rows-4">
+          <!-- -----product-1-------- -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./pics/remover/product-1_adobespark.png" alt="hello">
+              <div class="inter-image">
+                Red T-Shirt
+              </div>
+            </div>
+          </div>
+          <div class="card-details">
+            <div>
+              <div>Men's Shirt</div>
+              <div class="price">$9.00</div>
+            </div>
+            <span><img src="./pics/images/cart.png" onclick="fun()" width="25px" height="25px" alt=""></span>
+          </div>
+        </div>
+        <div class="rows-4">
+          <!-- --------------product-2---------------- -->
+          <div class="card">
+            <div class="card-image">
+              <img src="./pics/remover/product-2_adobespark.png" alt="hello">
+              <div class="inter-image">
+                Men's Shoe
+              </div>
+            </div>
+          </div>
+          <div class="card-details">
+            <div>
+              <div>Men's Shoe</div>
+              <div class="price">$16.10</div>
+            </div>
+            <span><img src="./pics/images/cart.png" onclick="fun()" width="25px" height="25px" alt=""></span>
+          </div>
+        </div>
+        <div class="rows-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="./pics/remover/product-2_adobespark.png" alt="hello">
+              <div class="inter-image">
+                Men's Shoe
+              </div>
+            </div>
+          </div>
+          <div class="card-details">
+            <div>
+              <div>Men's Shoe</div>
+              <div class="price">$12.00</div>
+            </div>
+            <span><img src="./pics/images/cart.png" onclick="fun()" width="25px" height="25px" alt=""></span>
+          </div>
+        </div>
+        <div class="rows-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="./pics/remover/product-5_adobespark.png" alt="hello">
+              <div class="inter-image">
+                White Shoe
+              </div>
+            </div>
+          </div>
+          <div class="card-details">
+            <div>
+              <div>White Shoe</div>
+              <div class="price">$9.60</div>
+            </div>
+            <span><img src="./pics/images/cart.png" onclick="fun()" width="25px" height="25px" alt=""></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------2nd coumn----------------- -->
+    <div class="column">
+      <div class="rows-4">
+        <!-- -----product-4-------- -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./pics/remover/product-5_adobespark.png" alt="hello">
+            <div class="inter-image">
+              Men's Shoe
+            </div>
+          </div>
+        </div>
+        <div class="card-details">
+          <div>
+            <div>Men's Shoe</div>
+            <div class="price">$11.00</div>
+          </div>
+          <span><img src="./pics/images/cart.png" onclick="fun()" width="25px" height="25px" alt=""></span>
+        </div>
+      </div>
+      <div class="rows-4">
+        <!-- --------------product-5---------------- -->
+        <div class="card">
+          <div class="card-image">
+            <img src="./pics/remover/product-5_adobespark.png" alt="hello">
+            <div class="inter-image">
+              Men's Shoe
+            </div>
+          </div>
+        </div>
+        <div class="card-details">
+          <div>
+            <div>Men's Shoe</div>
+            <div class="price">$7.00</div>
+          </div>
+          <span><img src="./pics/images/cart.png" onclick="fun()" width="25px" height="25px" alt=""></span>
+        </div>
+      </div>
+      <div class="rows-4">
+        <div class="card">
+          <div class="card-image" class="card-image">
+            <img id='image-card' src="./pics/remover/product-6_adobespark.png" alt="hello">
+            <div class="inter-image">
+              Black T-Shirt
+            </div>
+          </div>
+        </div>
+        <div class="card-details">
+          <div>
+            <div>Black T-Shirt</div>
+            <div class="price">$12.00</div>
+          </div>
+          <span> <img src="./pics/images/cart.png" onclick="fun()" width="25px" height="25px" alt=""></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------footer----------- -->
+    <footer>
+      <div class="column">
+        <div class="rows-3">
+          <p>Related Links</p>
+          <div class="footer-link">
+            <a href="./index.html">Home</a>
+            <a href="./product.html">Products</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="rows-3">
+          <p>Get in Touch</p>
+          <p class="footer-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit placeat magnam quia accusamus cum natus,
+            ex
+            at quae
+            perspiciatis ea laudantium debitis corrupti ratione! Reprehenderit nobis voluptas fugit perspiciatis.
+            Temporibus.
+          </p>
+          <ul class="logo-links">
+            <li> <a href="https://www.instagram.com/" target="blank"><img src="./pics/remover/instagram.png" alt=""
+                  width="22px" height="22px" style="color: white;"></a> </li>
+            <li><a href="https://www.pinterest.com/" target="blank"></a><img
+                src="./pics/remover/pinterest-social-logo.png" alt="" width="22px" height="22px"></li>
+            <li><a href="https://www.facebook.com/" target="blank"></a><img src="./pics/remover/facebook.png" alt=""
+                width="22px" height="22px"></li>
+          </ul>
+        </div>
+        <div class="rows-3">
+          <p>NewsLetter</p>
+          <input type="email" name="email" id="form-email" placeholder="Email">
+          <input type="submit" value="Subscribe" class="subs">
+        </div>
+      </div>
+      <div class="play">
+        Get the app on <a href="https://play.google.com/store" target="blank"><img src="./pics/images/play-store.png"
+            alt="" width="100px" height="30px"></a>
+      </div>
+    </footer>
+  </div>
+  <!-- ---------------------------script------------------ -->
+  <script src="./index.js"></script>
+</body>
+
+</html>
